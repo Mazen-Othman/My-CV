@@ -54,10 +54,9 @@ p{
 }
 .doc{
     width: 120px;
-
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 .btn{
