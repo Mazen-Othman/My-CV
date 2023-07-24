@@ -2,8 +2,8 @@
     "shortName" : "مازن عثمان",
     "fullName" : "مازن <br> محمد عثمان <br> مختار",
     "content" : [
-        {"t":"تواصل معي",   "p":"تويتر وتلقرام"},
+        {"t":"تواصل معي",   "p":"يمكنك التواصل معي عبر منصتي تويتر وتلقرام. <br><br> <a href=\"https://twitter.com/I_m_z1\"> <img src=\"./assets/icons/twitter.png\" class=\"social\"></a> <br> <a href=\"https://t.me/maz3n_othman\"><img src=\"./assets/icons/telegram.png\" class=\"social\"></a>  <br> حسابي على منصة GitHub <br><br> <a href=\"https://github.com/Mazen-Othman\"> <img src=\"./assets/icons/github.png\" class=\"social\"></a>"},
         {"t":"مرحبا!", "p": "مرحبا بك في الصفحة الرئيسية لسيرتي الذاتية. <br> خذ جولة لتعرف عني أكثر أو تتواصل معي"},
-        {"t": "عنِّي",    "p":" Hi, <br> I’m @Mazen-Othman <br> I’m interested in Mobile and Web development. <br> I’m currently learning Flutter and Node.js. <br>  I’m looking to collaborate on big projects that can help the world and makes life eazier."}
+        {"t": "عنِّي",    "p":"مرحبا! <br> أنا مازن محمد عثمان مختار من السودان، <br>أدرس تقنية المعلومات في جامعة السودان للعلوم والتكنولوجيا <br> وأعمل كمطور مواقع الكترونية وتطبيقات الهاتف الجوال <br><br>لدي خبرة سابقة في التصميم الجرافيكي وتصميم الهوية البصرية وتصميم الواجهات الالكترونية، <br> قادر على البحث عن حلول للمشاكل وإصلاحها في زمن وجيز. <br> <br>أحب العمل ضمن الفريق والمشاركة في طرح الأفكار والآراء ولدي رغبة ملحة في تعلم المزيد  وتطوير خبراتي وتوظيف المعرفة المكتسبة<br> <br> لغات البرمجة التي أعمل بها: <br>Dart - Javasctipt<br> <br> بالإضافة ل: <br> HTML - CSS<br><br> المنصات التي أعمل عليها: <br>Node.JS - Flutter<br>"}
      ]
 }

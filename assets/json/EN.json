@@ -1,9 +1,9 @@
 {
     "shortName" : "Mazen Othman",
-    "fullName" : "Mazen <br> Mohammed Othman <br> mokhtar",
+    "fullName" : "Mazen <br> Mohammed Othman <br> mukhtar",
     "content" : [
-        {"t":"Contact Me",   "p":" Twitter & Telegram"},
+        {"t":"Contact Me",   "p":"You can contact me via Twitter and Telegram. <br><br> <a href=\"https://twitter.com/I_m_z1\"> <img src=\"./assets/icons/twitter.png\" class=\"social\"></a> <br> <a href=\"https://t.me/maz3n_othman\"><img src=\"./assets/icons/telegram.png\" class=\"social\"></a>  <br> My account on GitHub <br><br> <a href=\"https://github.com/Mazen-Othman\"> <img src=\"./assets/icons/github.png\" class=\"social\"></a>"},
         {"t":"Hello There!", "p": "Welcoe to my CV home page. <br> Take a tour to know more about me or contact me"},
-        {"t": "About Me",    "p":" Hi, <br> I’m @Mazen-Othman <br> I’m interested in Mobile and Web development. <br> I’m currently learning Flutter and Node.js. <br>  I’m looking to collaborate on big projects that can help the world and makes life eazier."}
+        {"t": "About Me",    "p":"Welcome!<br> I am Mazen Mohammad Othman Mukhtar from Sudan,<br>I study Information Technology at Sudan University of Science and Technology,<br>I work as a mobile apps and fullstack web developer, <br><br> and I have previous experience in graphic design, visual identity design, and electronic interface design.<br>Able to find solutions to problems and fix them in a short time.<br><br>I love working within a team and participating in presenting ideas and opinions, and I have an urgent desire to learn more, develop my experiences, and employ the knowledge gained.<br><br>Programming languages I work with:<br>Dart - Javascript<br><br>in addition to:<br>HTML - CSS<br><br>Platforms I work on:<br>Node.JS - Flutter"}
      ]
 }
