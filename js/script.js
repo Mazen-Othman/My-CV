@@ -1,32 +1,22 @@
 
-var contents = [
-   {t:"Contact Me", p:" Twitter & Telegram"},
-   {t:"Hello There!", p: "Welcoe to my CV home page. <br> Take a tour to know more about me or contact me"},
-    {t: "About Me", p:` Hi, <br>
-    I’m @Mazen-Othman <br>
-    I’m interested in Mobile and Web development. <br>
-    I’m currently learning Flutter and Node.js. <br>
-    I’m looking to collaborate on big projects that can help the world and makes life eazier.`}
-]
-
-
-function animation() {
-    let id = null;
-    const elem = document.getElementById("animate");
-    let pos = 0;
-    clearInterval(id);
-    id = setInterval(frame, 5);
-    function frame() {
-      if (pos == 350) {
-        clearInterval(id);
-      } else {
-        pos++;
-        elem.style.top = pos + 'px';
-        elem.style.left = pos + 'px';
-      }
-    }
+const docLang = ()=>{
+  const EN = "../assets/json/EN.json";
+  const AR = "../assets/json/AR.json";
+  if (navigator.language = 'ar') {
+    html.classList.remove('en');
+    html.classList.add('ar');
+    return AR
+  } else {
+    html.classList.remove('ar');
+    html.classList.add('en');
+    return EN
   }
+}
 
+
+//var data;
+//./assets/json/data.json
+   
 
 function docState(btns) {
     b1.classList.remove("active");
@@ -39,8 +29,7 @@ function docState(btns) {
 }
 
 function getContent(content) {
-    var title = contents[content].t;
-    var paragraph = contents[content].p;
+    
     switch (content) {
         case 0:
             docState(b1)
@@ -58,6 +47,19 @@ function getContent(content) {
             docState(b2)
             break;
     }
-    document.getElementById('parTitle').innerHTML = title;
-    document.getElementById('content').innerHTML = paragraph;
+
+    fetch(docLang())
+   .then(response => response.json())
+   .then(data => 
+    {
+      var title = data.content[content].t;
+    var paragraph = data.content[content].p;
+      document.getElementById('pageTitle').innerHTML = data.shortName;
+      document.getElementById('myname').innerHTML = data.fullName;
+      document.getElementById('parTitle').innerHTML = title;
+      document.getElementById('content').innerHTML = paragraph;
+      
+    }
+    )
+    
 }

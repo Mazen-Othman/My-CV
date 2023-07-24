@@ -1,0 +1,9 @@
+{
+    "shortName" : "مازن عثمان",
+    "fullName" : "مازن <br> محمد عثمان <br> مختار",
+    "content" : [
+        {"t":"تواصل معي",   "p":"تويتر وتلقرام"},
+        {"t":"مرحبا!", "p": "مرحبا بك في الصفحة الرئيسية لسيرتي الذاتية. <br> خذ جولة لتعرف عني أكثر أو تتواصل معي"},
+        {"t": "عنِّي",    "p":" Hi, <br> I’m @Mazen-Othman <br> I’m interested in Mobile and Web development. <br> I’m currently learning Flutter and Node.js. <br>  I’m looking to collaborate on big projects that can help the world and makes life eazier."}
+     ]
+}

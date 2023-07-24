@@ -7,6 +7,13 @@
     --color6: #150120;
     --gr: linear-gradient(to top left, var(--color6),var(--color5));
 }
+.ar{
+    direction: rtl;
+}
+.en{
+    direction: ltr;
+}
+
 body {
     background-image: linear-gradient(to top left, var(--color6),var(--color5));
     margin: 30px;

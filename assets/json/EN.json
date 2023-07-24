@@ -1,0 +1,9 @@
+{
+    "shortName" : "Mazen Othman",
+    "fullName" : "Mazen <br> Mohammed Othman <br> mokhtar",
+    "content" : [
+        {"t":"Contact Me",   "p":" Twitter & Telegram"},
+        {"t":"Hello There!", "p": "Welcoe to my CV home page. <br> Take a tour to know more about me or contact me"},
+        {"t": "About Me",    "p":" Hi, <br> I’m @Mazen-Othman <br> I’m interested in Mobile and Web development. <br> I’m currently learning Flutter and Node.js. <br>  I’m looking to collaborate on big projects that can help the world and makes life eazier."}
+     ]
+}
