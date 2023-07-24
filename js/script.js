@@ -1,8 +1,9 @@
 
 const docLang = ()=>{
-  const EN = "../assets/json/EN.json";
-  const AR = "../assets/json/AR.json";
-  if (navigator.language = 'ar') {
+  const lang = navigator.language
+const EN = "../assets/json/EN.json";
+const AR = "../assets/json/AR.json";
+  if (lang == 'ar') {
     html.classList.remove('en');
     html.classList.add('ar');
     return AR
