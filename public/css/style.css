@@ -1,0 +1,183 @@
+:root {
+    --color1: rgb(29, 155, 240);
+    --color2: #e6edfe;
+    --color3: #a7a9ad;
+    --color4: #162e4e6b;
+    --color5: #091833;
+    --color6: #150120;
+    --gr: linear-gradient(to top left, var(--color6),var(--color5));
+}
+.ar{
+    direction: rtl;
+}
+.en{
+    direction: ltr;
+}
+
+body {
+    background-image: linear-gradient(to top left, var(--color6),var(--color5));
+    margin: 30px;
+    display: flex;
+    height: 90vh;
+    background-repeat:  repeat;
+}
+.content{
+    width:100%;
+		height:100%;
+    display:flex;
+    justify-content: space-around;
+}
+h1  {
+    color: var(--color2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.2s ease;
+}
+p{
+    color: var(--color2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--color4);
+    padding: 20px;
+    border-radius: 20px;
+    border: var(--color1) 1px solid;
+    position: sticky;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+a img{
+    height: 100px;
+}
+.line{
+    height: 80vh;
+    width: 15px;
+    float: left;
+    border-radius: 30px;
+    background-color: var(--color2);
+    border: var(--color1) 1px solid;
+}
+.photo{
+    border-radius: 30px;
+    height: 100;
+    border: var(--color1) 2px solid;
+}
+.first{
+    float:left;
+}
+.second{
+    float:left;
+    width: 40vw;
+}
+.doc{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.lang{
+    width: 95%;
+    height: 40px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.lang img{
+    width: 40px;
+}
+
+.active{
+    height: 80px;
+    width: 80px;
+}
+.btn img{
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: #010409;
+        height: 149vh;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .content{
+        display: block;
+        height: 80%;
+    }
+    .line{
+        height: 15px;
+        width: 100%;
+    }
+    .photo{
+        width: 50%;
+        border-radius: 30px;
+        transition: all 0.5s ease;
+    }
+    .first .comp{
+        border-radius: 100px;
+        width: 90px;
+        margin-bottom: 20px;
+    }
+    .compText{
+        font-size: 1.5em;
+    }
+    .doc{
+        
+        width: 83.9%;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        bottom: 0;
+        position: fixed;
+    }
+    .second{
+       height: 50%;
+        width: 100%;
+    }
+    .first{
+      display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease;
+    }
+    .compp{
+        display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    }
+    .space{
+        height: 80px;
+        display: block;
+    }
+    
+    .lang{
+        width: 85%;
+        flex-direction: row-reverse;
+    }
+    
+}
+
